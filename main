@@ -31,4 +31,14 @@ local testSection = AimingTab:CreateSector("Resolver", "left")
 
 local AimingTab = Window:CreateTab("Esp")
 
-local AimingTab = Window:CreateTab("Miscellaneous")
+local AimingTab = Window:CreateTab("Misc")
+
+
+
+local AimingTab = Window:CreateTab("Anti")
+
+local AimingTab = Window:CreateTab("Other")
+
+local AimingTab = Window:CreateTab("Credits")
+
+local AimingTab = Window:CreateTab("Hub")
