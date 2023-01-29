@@ -1,0 +1,34 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() --you can go into the github link and copy all of it and modify it for yourself.
+local Window = Library:CreateWindow("KyuraWare V2", Vector2.new(492, 598), Enum.KeyCode.RightControl) --you can change your UI keybind
+local AimingTab = Window:CreateTab("Aimbot") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
+
+
+local testSection = AimingTab:CreateSector("Camlock", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+
+testSection:AddToggle("On/Off", false, function(first)
+    print("ejejejejejeje")
+end)
+
+testSection:AddSlider("Smoothness", 0, 0, 100, 1, function(State)
+    
+end)
+
+testSection:AddTextbox("prediction", nil, function(State)
+
+end)
+
+testSection:AddDropdown("Hitpart", {"Head", "Humanoidrootpart", "UpperTorso", "LowerTorso"}, "HitPart", true, function(dropdown)
+
+end)
+
+testSection:AddTextbox("Key Toggle", nil, function(State)
+
+end)
+
+local testSection = AimingTab:CreateSector("Target Lock", "right")
+
+local testSection = AimingTab:CreateSector("Resolver", "left")
+
+local AimingTab = Window:CreateTab("Esp")
+
+local AimingTab = Window:CreateTab("Miscellaneous")
