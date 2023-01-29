@@ -33,8 +33,14 @@ local AimingTab = Window:CreateTab("Esp")
 
 local AimingTab = Window:CreateTab("Misc")
 
-
-
+local testSection = AimingTab:CreateSector("Admin", "left")
+testSection:AddButton("FLY (X)", function(IhateGayPeople)
+    loadstring(game:HttpGet("https://pastebin.com/raw/eKECQtpz"))()
+end)
+local testSection = AimingTab:CreateSector("Hood customs", "right")
+testSection:AddButton("FLY (X)", function(IhateGayPeople)
+    print
+end)
 local AimingTab = Window:CreateTab("Anti")
 
 local AimingTab = Window:CreateTab("Other")
